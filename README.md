@@ -3,6 +3,7 @@ Proyecto React + Vite — Estructura de Carpetas
 Este proyecto está organizado para escalar de forma ordenada, manteniendo separadas las responsabilidades entre UI, lógica, servicios, assets y páginas.
 
 📁 Estructura del Proyecto
+```
 mi-proyecto/
 ├── public/                     # Archivos estáticos accesibles por URL
 │   ├── logo.png                # Logo principal del proyecto
@@ -58,6 +59,7 @@ mi-proyecto/
 │   └── main.jsx                # Punto de entrada de Vite
 │
 └── index.html
+```
 
 📂 ¿Cuándo usar cada carpeta?
 ```
