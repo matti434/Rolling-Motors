@@ -1,10 +1,18 @@
 import React from 'react'
 
-const ModalBase = () => {
+export default function ModalBase({isOpen,onClose,children,title}){
+   
+  if(!isOpen) return null;
+
   return (
-    <div>ModalBase</div>
+    <>
+    <div className='fixed inset-0 bg-black/60 flex justify-center items-center'>
+      <div className='bg-white p-6 rounded-xl shadow-xl'>
+        {children}
+        <button onClick={onClose}>Close</button>
+      </div>
+    </div>
+    </>
   )
 }
-
-export default ModalBase
 
