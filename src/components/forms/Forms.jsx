@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Forms = () => {
+const Forms = ({title,children}) => {
   return (
-    <div>Forms</div>
+    <div>
+      <h2>{title}</h2>
+      {children}
+    </div>
   )
 }
 
 export default Forms
-
