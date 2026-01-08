@@ -107,3 +107,4 @@ router/	          Configuración de navegación y rutas protegidas
 npm create vite@latest
 npm install
 npm run dev
+..
